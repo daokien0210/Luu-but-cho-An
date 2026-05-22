@@ -321,7 +321,7 @@ body{
 
   <div class="intro-content">
 
-    <h1>Lưu bút cho Kin ✨</h1>
+    <h1>Lưu bút cho An ✨</h1>
 
     <p>
       click anywhere to enter
@@ -363,7 +363,7 @@ body{
   <div class="form-box">
 
     <h2>
-      Leave Your Memory 🌷
+      Leave Your Last Thoughts 🌷
     </h2>
 
     <input
@@ -492,37 +492,6 @@ window.sendMessage = async function(){
   }
 
 }
-
-/* HEART EFFECT */
-
-setInterval(() => {
-
-  const heart =
-  document.createElement("div");
-
-  heart.classList.add("heart");
-
-  heart.innerHTML = "❤";
-
-  heart.style.left =
-  Math.random() * 100 + "vw";
-
-  heart.style.fontSize =
-  Math.random() * 20 + 15 + "px";
-
-  heart.style.animationDuration =
-  Math.random() * 3 + 4 + "s";
-
-  document.body.appendChild(heart);
-
-  setTimeout(() => {
-
-    heart.remove();
-
-  }, 7000);
-
-}, 500);
-
 </script>
 
 </body>
